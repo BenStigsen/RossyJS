@@ -1,0 +1,9 @@
+// https://stackoverflow.com/questions/4288253/html5-canvas-100-width-height-of-viewport
+* { margin:0; padding:0; }
+html, body { 
+  overflow-x: hidden;
+  overflow-y: hidden;
+  //width:98%; height:98%; 
+}
+canvas { display:block; }
+
